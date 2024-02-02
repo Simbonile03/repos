@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gallery.library"
+             Title="LIBRARY" FlyoutItem.IsVisible="True" BackgroundColor="Black">
+
+    <ScrollView Orientation="Vertical"  >
+    <VerticalStackLayout>
+        
+        <!--row 1-->
+        <StackLayout Orientation="Horizontal">
+                <Image Source="screenshot1.jpg"
+                  Aspect="AspectFit"
+                  WidthRequest="280"
+                   Margin="20,5,5,5"> 
+            </Image>
+
+            <Image Source="screenshot.jpg"
+                  Aspect="AspectFit"
+                  WidthRequest="280"
+                   Margin="5,5,5,5">    
+            </Image>
+            <Image Source="whatsapp.jpg"
+                  Aspect="AspectFit"
+                  WidthRequest="280"
+                   Margin="5,5,5,5">        
+            </Image>
+        </StackLayout>
+
+        <!--row 2-->
+        <StackLayout Orientation="Horizontal">
+            <Image Source="screensho1.jpg"
+           Aspect="AspectFit"
+           WidthRequest="280"
+            Margin="20,5,5,5">
+            </Image>
+
+                <Image Source="screensho2.jpg"
+           Aspect="AspectFit"
+           WidthRequest="280"
+            Margin="5,5,5,5">
+            </Image>
+                <Image Source="screenshot3.jpg"
+           Aspect="AspectFit"
+           WidthRequest="280"
+            Margin="5,5,5,5">
+            </Image>
+        </StackLayout>
+        <!--row 3-->
+        <StackLayout Orientation="Horizontal">
+            <Image Source="chrome1.jpg"
+           Aspect="AspectFit"
+           WidthRequest="280"
+            Margin="20,5,5,5">
+            </Image>
+
+                <Image Source="screenshot2.jpg"
+           Aspect="AspectFit"
+           WidthRequest="280"
+            Margin="5,5,5,5">
+            </Image>
+            <Image Source="chrome2.jpg"
+           Aspect="AspectFit"
+           WidthRequest="280"
+            Margin="5,5,5,5">
+            </Image>
+        </StackLayout>
+        <!--row 4-->
+        <StackLayout Orientation="Horizontal">
+                <Image Source="screenshot1.jpg"
+           Aspect="AspectFit"
+           WidthRequest="280"
+            Margin="20,5,5,5">
+            </Image>
+
+            <Image Source="chrome3.jpg"
+           Aspect="AspectFit"
+           WidthRequest="280"
+             Margin="5,5,5,5">
+            </Image>
+            <Image Source="chrome4.jpg"
+           Aspect="AspectFit"
+           WidthRequest="280"
+             Margin="5,5,5,5">
+            </Image>
+        </StackLayout>
+        <!--row 5-->
+        <StackLayout Orientation="Horizontal">
+                <Image Source="screenshot.jpg"
+           Aspect="AspectFit"
+           WidthRequest="280"
+            Margin="20,5,5,5">
+            </Image>
+
+                <Image Source="chrome1.jpg"
+           Aspect="AspectFit"
+           WidthRequest="280"
+            Margin="5,5,5,5">
+            </Image>
+                <Image Source="chrome4.jpg"
+           Aspect="AspectFit"
+           WidthRequest="280"
+            Margin="5,5,5,5">
+            </Image>
+        </StackLayout>
+        <!--row 6-->
+        <StackLayout Orientation="Horizontal">
+                <Image Source="screenshot1.jpg"
+           Aspect="AspectFit"
+           WidthRequest="280"
+            Margin="20,5,5,5">
+            </Image>
+
+                <Image Source="screenshot4.jpg"
+           Aspect="AspectFit"
+           WidthRequest="280"
+             Margin="5,5,5,5">
+            </Image>
+                <Image Source="whatsapp.jpg"
+           Aspect="AspectFit"
+           WidthRequest="280"
+            Margin="5,5,5,5">
+            </Image>
+        </StackLayout>
+        <!--row 7-->
+        <StackLayout Orientation="Horizontal">
+                <Image Source="chrome1.jpg"
+           Aspect="AspectFit"
+           WidthRequest="280"
+            Margin="20,5,5,5">
+            </Image>
+
+                <Image Source="screenshot.jpg"
+           Aspect="AspectFit"
+           WidthRequest="280"
+            Margin="5,5,5,5">
+            </Image>
+                <Image Source="screenshot2.jpg"
+           Aspect="AspectFit"
+           WidthRequest="280"
+             Margin="5,5,5,5">
+            </Image>
+        </StackLayout>
+
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

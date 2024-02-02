@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Gallery.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <StackLayout Padding="20">
+
+        <Grid Background="pink">
+
+            <ListView x:Name="PhotoListView" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                        <StackLayout Margin="10">
+                            <Image Source="{Binding ImagePath}" Width="200" Height="150" MaximumHeightRequest="200"/>
+                            <Label Text="{Binding Title}" Margin="0,5,0,0" FontSize="16" FontAttributes="Bold"/>
+                        </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+            
+            
+            
+            
+            
+            
+            
+        </Grid>
+
+
+
+
+
+
+
+
+
+
+
+    </StackLayout>
+</ContentPage> 
