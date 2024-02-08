@@ -4,54 +4,55 @@
              x:Class="Gallery.Album"
              Title="ALBUM" Background="Black">
 
-    <ScrollView Orientation="Vertical"  >
-        <StackLayout Orientation="Vertical">
-    <StackLayout Orientation="Horizontal">
-        <Label Text="GALLERY" TextColor="Black" FontSize="50" FontAttributes="Bold" HorizontalTextAlignment="End"/>
+    <ScrollView >
+        <StackLayout Orientation="Vertical" VerticalOptions="Start">
+        <Label Text="GALLERY" TextColor="WhiteSmoke" FontSize="50" FontAttributes="Bold" HorizontalTextAlignment="Start"/>
 
-         
+            <Grid VerticalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
 
-        </StackLayout>
-        <StackLayout Orientation="Horizontal" Margin="0,0,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
 
-            <ImageButton Clicked="ImageButton_Clicked"  Source="chrome3.jpg"
-                          Aspect="AspectFit"
-                          WidthRequest="420" 
-                          Margin="10,0,10,10">
+                <ImageButton  Grid.Row="0"   Grid.Column="0"   Clicked="ImageButton_Clicked"  Source="chrome2.jpg"
+                          Aspect="AspectFill"
+                          WidthRequest="180"
+                          HeightRequest="250"
+                          Margin="10,10,10,10">
 
-            </ImageButton>
+                </ImageButton>
 
-             <ImageButton Clicked="ImageButton_Clicked"  Source="chrome2.jpg"
-                          Aspect="AspectFit"
-                          WidthRequest="420" 
-                          Margin="10,0,10,0">
+                <ImageButton Grid.Row="0" Grid.Column="1" Clicked="ImageButton_Clicked"  Source="chrome3.jpg"
+                          Aspect="AspectFill"
+                          WidthRequest="180"
+                          HeightRequest="200"
+                          Margin="10,10,10,10">
 
-            </ImageButton>
+                </ImageButton>
 
+                <ImageButton Grid.Row="1" Grid.Column="0" Clicked="ImageButton_Clicked"  Source="screenshot2.jpg"
+                        Aspect="AspectFill"
+                        WidthRequest="180" 
+                         HeightRequest="200"
+                         Margin="10,10,20,10">
 
-
-        </StackLayout>
-
-        <StackLayout Orientation="Horizontal">
-
-            <ImageButton Clicked="ImageButton_Clicked"  Source="screenshot2.jpg"
-                         Aspect="AspectFit"
-                         WidthRequest="420" 
-                         Margin="10,0,10,10">
-                
-            </ImageButton>
-
-
-            <ImageButton Clicked="ImageButton_Clicked"  Source="screenshot.jpg"
-                         Aspect="AspectFit"
-                         WidthRequest="420" 
-                         Margin="10,0,10,10">
-
-            </ImageButton>
+                </ImageButton>
 
 
+                <ImageButton Grid.Row="1" Grid.Column="1" Clicked="ImageButton_Clicked"  Source="screenshot.jpg"
+                        Aspect="AspectFill"
+                        WidthRequest="180" 
+                         HeightRequest="200"
+                         Margin="10,10,10,10">
 
-        </StackLayout>
+                </ImageButton>
+
+            </Grid>
     </StackLayout>
     </ScrollView>
 </ContentPage>

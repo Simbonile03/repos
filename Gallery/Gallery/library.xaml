@@ -11,18 +11,18 @@
         <StackLayout Orientation="Horizontal">
                 <Image Source="screenshot1.jpg"
                   Aspect="AspectFit"
-                  WidthRequest="280"
+                  WidthRequest="100"
                    Margin="20,5,5,5"> 
             </Image>
 
             <Image Source="screenshot.jpg"
                   Aspect="AspectFit"
-                  WidthRequest="280"
+                  WidthRequest="100"
                    Margin="5,5,5,5">    
             </Image>
             <Image Source="whatsapp.jpg"
                   Aspect="AspectFit"
-                  WidthRequest="280"
+                  WidthRequest="100"
                    Margin="5,5,5,5">        
             </Image>
         </StackLayout>
@@ -31,18 +31,18 @@
         <StackLayout Orientation="Horizontal">
             <Image Source="screensho1.jpg"
            Aspect="AspectFit"
-           WidthRequest="280"
+           WidthRequest="100"
             Margin="20,5,5,5">
             </Image>
 
                 <Image Source="screensho2.jpg"
            Aspect="AspectFit"
-           WidthRequest="280"
+           WidthRequest="100"
             Margin="5,5,5,5">
             </Image>
                 <Image Source="screenshot3.jpg"
            Aspect="AspectFit"
-           WidthRequest="280"
+           WidthRequest="100"
             Margin="5,5,5,5">
             </Image>
         </StackLayout>
@@ -50,18 +50,18 @@
         <StackLayout Orientation="Horizontal">
             <Image Source="chrome1.jpg"
            Aspect="AspectFit"
-           WidthRequest="280"
+           WidthRequest="100"
             Margin="20,5,5,5">
             </Image>
 
                 <Image Source="screenshot2.jpg"
            Aspect="AspectFit"
-           WidthRequest="280"
+           WidthRequest="100"
             Margin="5,5,5,5">
             </Image>
             <Image Source="chrome2.jpg"
            Aspect="AspectFit"
-           WidthRequest="280"
+           WidthRequest="100"
             Margin="5,5,5,5">
             </Image>
         </StackLayout>
@@ -69,18 +69,18 @@
         <StackLayout Orientation="Horizontal">
                 <Image Source="screenshot1.jpg"
            Aspect="AspectFit"
-           WidthRequest="280"
+           WidthRequest="100"
             Margin="20,5,5,5">
             </Image>
 
             <Image Source="chrome3.jpg"
            Aspect="AspectFit"
-           WidthRequest="280"
+           WidthRequest="100"
              Margin="5,5,5,5">
             </Image>
             <Image Source="chrome4.jpg"
            Aspect="AspectFit"
-           WidthRequest="280"
+           WidthRequest="100"
              Margin="5,5,5,5">
             </Image>
         </StackLayout>
@@ -88,18 +88,18 @@
         <StackLayout Orientation="Horizontal">
                 <Image Source="screenshot.jpg"
            Aspect="AspectFit"
-           WidthRequest="280"
+           WidthRequest="100"
             Margin="20,5,5,5">
             </Image>
 
                 <Image Source="chrome1.jpg"
            Aspect="AspectFit"
-           WidthRequest="280"
+           WidthRequest="100"
             Margin="5,5,5,5">
             </Image>
                 <Image Source="chrome4.jpg"
            Aspect="AspectFit"
-           WidthRequest="280"
+           WidthRequest="100"
             Margin="5,5,5,5">
             </Image>
         </StackLayout>
@@ -107,18 +107,18 @@
         <StackLayout Orientation="Horizontal">
                 <Image Source="screenshot1.jpg"
            Aspect="AspectFit"
-           WidthRequest="280"
+           WidthRequest="100"
             Margin="20,5,5,5">
             </Image>
 
                 <Image Source="screenshot4.jpg"
            Aspect="AspectFit"
-           WidthRequest="280"
+           WidthRequest="100"
              Margin="5,5,5,5">
             </Image>
                 <Image Source="whatsapp.jpg"
            Aspect="AspectFit"
-           WidthRequest="280"
+           WidthRequest="100"
             Margin="5,5,5,5">
             </Image>
         </StackLayout>
@@ -126,18 +126,18 @@
         <StackLayout Orientation="Horizontal">
                 <Image Source="chrome1.jpg"
            Aspect="AspectFit"
-           WidthRequest="280"
+           WidthRequest="100"
             Margin="20,5,5,5">
             </Image>
 
                 <Image Source="screenshot.jpg"
            Aspect="AspectFit"
-           WidthRequest="280"
+           WidthRequest="100"
             Margin="5,5,5,5">
             </Image>
                 <Image Source="screenshot2.jpg"
            Aspect="AspectFit"
-           WidthRequest="280"
+           WidthRequest="100"
              Margin="5,5,5,5">
             </Image>
         </StackLayout>
